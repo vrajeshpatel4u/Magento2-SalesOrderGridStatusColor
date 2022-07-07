@@ -19,6 +19,10 @@ define([
                 return 'closed-status';
             } else if (row.status == 'holded') {
                 return 'holded-status';
+            } else if (row.status == 'closed') {
+                return 'closed-status';
+            } else if (row.status == 'canceled') {
+                return 'canceled-status';
             }
             return '#303030';
         }
